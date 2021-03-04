@@ -16,6 +16,7 @@ import { SpecialDeals } from "./specialDeal/specialDeals";
 import MvEmail from "./generalLayout/mvEmail";
 import { FooterGe } from "./generalLayout/footer_test";
 import BuyYourMvLayout from "./buyYourMV/buyYourMvLayout";
+import WarrantyLayout from "./warranty/warrantyLayout";
 function Index() {
   window.addEventListener("scroll", () => {
     ScrollNavFunction();
@@ -41,6 +42,7 @@ function Index() {
           <Route path="/about-us" component={AboutUsLayout} exact />
           <Route path="/special-deals" component={SpecialDeals} exact />
           <Route path="/buy-your-mv" component={BuyYourMvLayout} exact />
+          <Route path="/warranty" component={WarrantyLayout } exact />
           <Route path="/dragster800rr" component={BodyDragster800RR} />
           <Route path="/dragster800rrscs" component={Dragster800RR_SCS} />
           <Route path="/brutale1000rr" component={BodyBrutale1000RR} />
